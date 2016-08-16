@@ -1,0 +1,117 @@
+body{
+	background-color: whitesmoke;
+	margin: 0px;
+
+}
+
+#container {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+
+#first {
+	order:6;
+	flex: 0 1 ;
+	margin: 0 1.66666% 0 1.66666%;
+  	width: 30%;
+}
+
+#second {
+	order:7;
+	flex: 0 1 8em;
+	margin: 0 1.66666% 0 1.66666%;
+  	width: 30%;
+}
+
+#third {
+	order:1;
+	flex: 0 1 8em;
+	margin: 0 2% 0 2%;
+  	width: 21%;
+}
+
+#main {
+	order:3;
+	min-height: 400px;
+	flex: 1;
+}
+
+#fourth {
+	order:2;
+	flex: 0 1;
+    margin: 0 2% 0 2%;
+  	width: 21%;
+}
+
+#eighth {
+	order:4;
+	flex: 0 1 8em;
+	margin: 0 2% 0 2%;
+  	width: 21%;
+}
+
+#seventh {
+	order:9;
+	flex: 0 1 8em;
+	margin: 0 1.66666% 0 1.66666%;
+  	width: 30%;
+}
+
+#ninth {
+	order:5;
+	flex: 0 1;
+	margin: 0 2% 0 2%;
+    width: 21%;
+}
+
+#sixth {
+	order:8;
+	flex: 0 1;
+	margin: 0 1.66666% 0 1.66666%;
+  	width: 30%;
+}
+
+
+.up {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 7em 7em 7em;
+	border-color: transparent transparent #076591 transparent;
+}
+
+
+.down {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 7em 7em 0 7em;
+	border-color: #076591  transparent transparent transparent;
+
+}
+
+.phrase {
+	padding-top: 2.5em;
+	padding-bottom: 2.5em;
+	padding-left: .5em;
+	text-align: center;
+}
+
+
+.spacer {
+	height:  4em;
+	text-align: center;
+	order:10;
+	flex: 0 1 100%;
+}
+
+.inAline {
+	order:11;
+	flex: 0 1 100%;
+}
+
+.inaline img {
+	border: solid 1em #076591  ;
+}
+
