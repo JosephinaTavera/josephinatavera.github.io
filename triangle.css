@@ -11,14 +11,14 @@ body{
 
 
 #first {
-	order:6;
+	order:7;
 	flex: 0 1 ;
 	margin: 0 1.66666% 0 1.66666%;
   	width: 30%;
 }
 
 #second {
-	order:7;
+	order:8;
 	flex: 0 1 8em;
 	margin: 0 1.66666% 0 1.66666%;
   	width: 30%;
@@ -31,11 +31,20 @@ body{
   	width: 21%;
 }
 
-#main {
+#main1 {
 	order:3;
-	min-height: 400px;
+	min-height: 7em;
 	flex: 1;
+	text-align: center;
 }
+
+#main2 {
+	order:9;
+	min-height: 7em;
+	flex: 1;
+	text-align: center;
+}
+
 
 #fourth {
 	order:2;
@@ -52,7 +61,7 @@ body{
 }
 
 #seventh {
-	order:9;
+	order:11;
 	flex: 0 1 8em;
 	margin: 0 1.66666% 0 1.66666%;
   	width: 30%;
@@ -66,12 +75,18 @@ body{
 }
 
 #sixth {
-	order:8;
+	order:10;
 	flex: 0 1;
 	margin: 0 1.66666% 0 1.66666%;
   	width: 30%;
 }
 
+/*#tenth {
+	order:11;
+	flex: 0 1;
+	margin: 0 1.66666% 0 1.66666%;
+  	width: 30%;
+}*/
 
 .up {
 	width: 0px;
@@ -99,15 +114,22 @@ body{
 }
 
 
-.spacer {
-	height:  4em;
+.spacer1 {
+	height:  7em;
 	text-align: center;
-	order:10;
+	order:6;
+	flex: 0 1 100%;
+}
+
+.spacer2 {
+	height:  7em;
+	text-align: center;
+	order:12;
 	flex: 0 1 100%;
 }
 
 .inAline {
-	order:11;
+	order:13;
 	flex: 0 1 100%;
 }
 
